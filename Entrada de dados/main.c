@@ -15,7 +15,7 @@ int main()
     char frase[100];
 
     ///////////ENTRADAS COM SCANF///////////
-    //Entradas de letras
+    ////Entradas de letras////
     printf("Entre com uma letra: "); // Solicitacao de entrada de letra
     scanf("%c", &letra2);
     /*O comando scanf faz a leitura do que foi inserido via teclado
@@ -34,34 +34,30 @@ int main()
     */
     fflush(stdin);// Comando que limpa a entrada para que outro valor seja lido via teclado
 
-    //Entradas de palavras simples
+    ////Entradas de palavras simples////
     printf("Entre com seu primeiro nome com ate 10 caracteres: ");//Solicitacao de entrada de dados
     scanf("%s", &palavra2);
     printf("Palavra atribuida no inicio: %s, Nome inserido via teclado: %s\n",palavra1, palavra2); //Exibindo o que foi digitado
     fflush(stdin);// Comando que limpa a entrada para que outro valor seja lido via teclado
 
-    //Entradas de numeros
+    ////Entradas de numeros Inteiros////
     printf("Entre com um numero inteiro: ");
     scanf("%d",&num1);
     printf("Numero inteiro digitado: %d\n",num1);
     fflush(stdin);// Comando que limpa a entrada para que outro valor seja lido via teclado
 
+    ////Entradas de numeros Ponto Flutuante////
     printf("Entre com um numero com ponto flutuante: ");
     scanf("%f",&num4);
     printf("Numero de ponto flutuante digitado: %f\n",num4);
     fflush(stdin);// Comando que limpa a entrada para que outro valor seja lido via teclado
 
-    //ENTRADA COM GETS
-    //Aceita texto separado por espacos
+    ///////////ENTRADA COM GETS///////////
+    ////Aceita texto separado por espacos////
     printf("Entre com uma frase de ate 100 posicoes: ");
     gets(frase);
     printf("Frase digitada: %s\n",frase);
     fflush(stdin);// Comando que limpa a entrada para que outro valor seja lido via teclado
-
-
-
-
-
 
     return 0;
 }

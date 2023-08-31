@@ -2,6 +2,11 @@
 #include <stdlib.h>
 
 //SAIDA DE DADOS
+/*OBSERVAÇÕES
+Comando de saida: printf
+Simbolo de quebra de linha: \n (contra barra + letra n)
+Simbolo de atribuicao: = (simbolo de igualdade)
+*/
 int main()
 {
     int num1 = 10;

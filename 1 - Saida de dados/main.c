@@ -9,11 +9,12 @@ Simbolo de atribuicao: = (simbolo de igualdade)
 */
 int main()
 {
-    int num1 = 10;
-    float num2 = 20.5;
-    double num3 = 32.654;
-    char letra= 'x';
-    char palavra[10] = "Batata";
+    //Declaração de Variáveis
+    int num1 = 10; //Tipo inteiro já com atribuição
+    float num2 = 20.5; //Tipo Float
+    double num3 = 32.654; //Tipo Double
+    char letra= 'x'; //Caracteres (um unico caracter)
+    char palavra[10] = "Batata"; // Cadeia de caracteres, String
 
     /*O identificador % é responsavel por informar o tipo de saida
       %c - Caracter

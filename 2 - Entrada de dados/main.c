@@ -3,6 +3,13 @@
 #include <stdlib.h>
 
 //ENTRADA DE DADOS
+/*OBSERVACOES
+Comando de entrada de dados:
+scanf, com os seguintes paramentros: tipo do dado que esta
+sendo inserido e a variavel que ira recebe-lo e gets
+gets, para receber strings separadas por espaço
+Comando de limpeza do buffer: fflush(stdin)
+*/
 int main()
 {
     //Declaracao de variaveis
